@@ -3,11 +3,13 @@
 Przykładowa aplikacja KMP do Pair Programmingu na rozmowy rekrutacyjne
 
 ### Struktura projektu
+
 - `androidApp` - natywna aplikacja Android
 - `iosApp` - natywna aplikacja iOS
 - `shared` - wspólny moduł KMP
 
 ### Podłączone biblioteki
+
 - [Jetpack Compose](https://developer.android.com/compose)
 - [AndroidX ViewMdoel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 - [SKIE](https://skie.touchlab.co/)
@@ -27,13 +29,14 @@ Zaimplementuj prostą aplikację Todo korzystając z danych dostępnych w API JS
 https://jsonplaceholder.typicode.com/
 
 ### Podstawowy zakres
+
 1. Warstwa danych do pobierania listy Todo z API
 2. ViewModel do zarządzania stanem ekranu listy Todo
-3. Przewijany ekran listy Todo
-4. Testy jednostkowe do wybranego kodu
+3. Testy jednostkowe do wybranego kodu
 
 ### Opcjonalny zakres
+
 1. Cachowanie pobranych Todo
-2. Ekran listy Todo na drugiej platformie
-2. Obsługa zmiany stanu Todo completed / not completed
-3. Wyszukiwanie Todo po nazwie
+2. Ekran listy Todo Android / iOS
+3. Obsługa zmiany stanu Todo completed / not completed
+4. Wyszukiwanie Todo po nazwie
