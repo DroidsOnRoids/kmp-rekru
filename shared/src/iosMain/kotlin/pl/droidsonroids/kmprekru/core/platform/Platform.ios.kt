@@ -1,4 +1,4 @@
-package pl.droidsonroids.kmprekru
+package pl.droidsonroids.kmprekru.core.platform
 
 import platform.UIKit.UIDevice
 

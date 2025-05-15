@@ -1,4 +1,4 @@
-package pl.droidsonroids.kmprekru
+package pl.droidsonroids.kmprekru.core.platform
 
 class AndroidPlatform : Platform {
     override val name: String = "Android ${android.os.Build.VERSION.SDK_INT}"
